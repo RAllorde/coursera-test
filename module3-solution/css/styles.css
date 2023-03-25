@@ -1,0 +1,91 @@
+body {
+	font-size: 16px;
+	color: #black;
+	background-color: white;
+	font-family: 'Delicious Handrawn', Arial, sans-serif;
+}
+
+.noPaddingMargin {
+	margin: 0px;
+	padding: 0px;
+}
+
+#header-nav {
+	background-color: gray;
+	border: black 3px solid;
+	padding: 0px;
+}
+
+#header-nav h1 {
+	color: black;
+	font-size: 2em;
+}
+
+#header-nav div{
+	width: 100%;
+	padding: 0px;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	color: black;
+}
+
+#header-nav div div {
+	position: relative;
+	padding: 15px;
+}
+
+.navbar-header button {
+	position: absolute;
+	right: 25px;
+	top: 35px;
+	margin: auto 5px;
+}
+
+#navbarSupportedContent {
+	background-color: white;
+	border: black 3px solid;
+	padding: 0px;
+}
+
+#navbarSupportedContent ul{
+	margin: 0px;
+}
+
+.mb-2 {
+	margin: 0px;
+}
+
+#Chicken, #Beef{
+	border-bottom: 3px solid black;
+}
+
+#navbarSupportedContent h2 {
+	text-align: center;
+	margin: 0px;
+}
+
+#main-container h1{
+	padding-top: 15px;
+	font-size: 2em;
+}
+
+#main-container div h3 {
+	padding-top: 15px
+}
+
+#main-container div div div{
+	border: 3px solid black;
+	color: black;
+	background-color: gray;
+	margin-bottom: 20px;
+}
+
+#main-container div div p{
+	padding: 20px;
+}
+
+#main-container div div p a{
+	color: yellow;
+}
